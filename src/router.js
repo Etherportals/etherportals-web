@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/Home.vue'
- 
+
 import Login from './views/Login.vue'
 import Docs from './views/Docs.vue'
 import NotFound from './views/NotFound.vue'
@@ -22,6 +22,11 @@ export default new Router({
       path: '/#',
       name: 'home',
       component: Home
+    },
+    {
+      path: '/room/:id',
+      name: 'room',
+      component: Home,
     },
     {
       path: '/login',

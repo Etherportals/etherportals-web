@@ -29,7 +29,8 @@
 
   <div class="lg:flex mb-4">
 
-   	<GameCanvas/>
+   	<GameCanvas	ref="gameCanvas"/>
+
   </div>
 
 
@@ -60,7 +61,8 @@ export default {
       activeAccountAddress: null,
 			network: 'ethereum',
 			providerNetworkID: null,
-			assetName: '0xBTC'
+			assetName: '0xBTC',
+			roomId: null
     }
   },
   created () {
@@ -74,9 +76,20 @@ export default {
 				 Web3Helper.init();
 	      	this.readWeb3Data();  //opens the window
 		 }
- 
+
+
+
+
 
   },
+	mounted () {
+		this.roomId = this.$route.params.id;
+
+ 	 console.log(this.$refs.gameCanvas)
+ 	 this.$refs.gameCanvas.teleportToRoom(this.roomId)
+
+
+ },
   methods: {
    async checkSignedIn () {
 

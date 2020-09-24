@@ -9,7 +9,7 @@
 
     			<div class="pl-4">
     				<a class="text-black text-base no-underline hover:no-underline font-extrabold text-xl"  href="#">
-    					Matic Tipjar
+    					Portals
     				</a>
           </div>
 
@@ -38,10 +38,9 @@
 
 
             <div v-if="activeContent == 'purpose'">
-              <h3 class="text-lg"> Matic Tipjar </h3>
+              <h3 class="text-lg"> Portals </h3>
               <br>
-
-              <p> The purpose of this application ('The Dapp') is to provide a simple front-end user experience that allows users to receive and send tips using the Matic Network via a Discord Bot custodian. </p>
+              <p>?</p>
 
             </div>
 
@@ -49,7 +48,7 @@
               <h3 class="text-lg"> Getting Connected </h3>
               <br>
 
-              <p> To connect to this Dapp, you will need a Web3 compatible browser or extension such as Metamask. (<a href="https://metamask.io" target="_blank" >https://metamask.io</a>)    </p>
+              <p> To connect to, you will need a Web3 compatible browser or extension such as Metamask. (<a href="https://metamask.io" target="_blank" >https://metamask.io</a>)    </p>
               <br>
               <p> Once you have installed Metamask, you will need to add a Custom RPC for the Matic Network so that you will be able to digitally sign transactions for the Matic Network.   To do this, click on the 'Networks' dropdown at the very top of Metamask and change it from 'Main Ethereum Network' to 'Custom RPC' and use the following information: </p>
                 <br>
@@ -65,7 +64,7 @@
             </div>
 
 
-            
+
 
 
 

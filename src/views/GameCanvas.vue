@@ -9,7 +9,7 @@
 import * as THREE from 'three'
 
 export default {
-  name: 'ThreeTest',
+  name: 'GameCanvas',
   data() {
     return {
       cube: null,
@@ -48,6 +48,16 @@ export default {
       this.cube.rotation.y += 0.01
 
       this.renderer.render(this.scene, this.camera)
+    },
+    teleportToRoom: function(roomId) {
+      console.log(' -- teleport to room -- ',roomId);
+      //clear all assets in the room
+
+      //set the proper room size
+
+      //teleport the player to the middle of the room
+
+
     }
   },
   mounted() {
