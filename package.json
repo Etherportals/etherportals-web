@@ -1,0 +1,37 @@
+{
+  "name": "portals",
+  "version": "1.0.0",
+  "description": "?",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@maticnetwork/maticjs": "^2.0.6-beta.0",
+    "@maticnetwork/walletconnect-provider": "0.0.1-beta.1",
+    "bignumber.js": "^9.0.0",
+    "core-js": "^2.6.5",
+    "dat.gui": "^0.7.7",
+    "oimo": "^1.0.9",
+    "portal-vue": "^2.1.0",
+    "tailwindcss": "^1.0.0-beta.4",
+    "three.js": "^0.77.1",
+    "vue": "^2.6.6",
+    "vue-router": "^3.0.1",
+    "vue-threejs": "^0.2.0-alpha.1",
+    "web3": "^1.2.11"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.5.0",
+    "@vue/cli-plugin-eslint": "^3.5.0",
+    "@vue/cli-service": "^3.5.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.8.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "vue-template-compiler": "^2.5.21"
+  }
+}
